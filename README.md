@@ -4,7 +4,7 @@ This is my response to a recruitment challenge exercise.
 The key criteria for assessment are  listed in the challenge gihthub page, I will address these in this document.
 - Requirements for buiding and provisioning the application.
   - These instructions assume AWS knowledge and practical experience (also some experience with Packer and Terraform would be a bonus).
-  - Amazon AWS account with an IAM user with AdminstratorAccess membership and an API access key. Export the keys in your terminal session:
+  - Amazon AWS account with an IAM user with AdministratorAccess membership and an API access key. Export the keys in your terminal session:
     - export AWS_ACCESS_KEY_ID="mykeyid"
     - export AWS_SECRET_ACCESS_KEY="mysecretkey"
   - HashiCorp tools, Packer and Terraform are required. Install these tools on your workstation as per the instructions provided by HashiCorp. If you are using a Red Hat Operating System, add these tools to the beginning of your PATH to avoid a conflict with another tool called packer. 
