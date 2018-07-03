@@ -2,7 +2,7 @@
 
 This is my response to a recruitment challenge exercise.
 The key criteria for assessment are  listed in the challenge gihthub page, I will address these in this document.
-- Requiements for buiding and provisioning the application.
+- Requirements for buiding and provisioning the application.
   - These instructions assume AWS knowledge and practical experience (also some experience with Packer and Terraform would be a bonus).
   - Amazon AWS account with an IAM user with AdminstratorAccess membership and an API access key. Export the keys in your terminal session:
     - export AWS_ACCESS_KEY_ID="mykeyid"
