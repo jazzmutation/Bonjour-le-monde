@@ -28,7 +28,7 @@ The key criteria for assessment are  listed in the challenge gihthub page, I wil
 
 ## Design for the solution
 
-When I read the requirements, I realised that I had completed an earlier release of this challenge about four years ago using puppet razor for VM provisioning and puppet agent /puupet server for application deployment and configuration management. 
+When I read the requirements, I realised that I had completed an earlier release of this challenge about four years ago using puppet razor for VM provisioning and puppet server for application deployment and configuration management. 
 
 There were shortfalls, in that, the reviewer was unable to test my code with similar infrastructure as my homelab. This time I decided to use an AWS account for this challenge, giving the reviewer the option of spinning up the complete environment for testing.
 
