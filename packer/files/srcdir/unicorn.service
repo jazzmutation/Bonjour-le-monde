@@ -1,0 +1,17 @@
+[Unit]
+Description=Unicorn serving simple app
+After=syslog.target
+
+[Service]
+Restart=always
+RestartSec=10
+Type=forking
+WorkingDirectory=/srv
+SyslogIdentifier=unicorn-service
+PIDFile=/var/www/simple-sinatra-app/shared/pids/unicorn.pid
+KillMode=mixed
+KillSignal=SIGQUIT
+ExecStart=/usr/local/rvm/wrappers/simple-sinatra-app/unicorn -D -c /var/www/simple-sinatra-app/shared/config/unicorn.conf.rb -E production
+
+[Install]
+WantedBy=multi-user.target
