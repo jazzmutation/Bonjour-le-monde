@@ -46,5 +46,10 @@ With security, I have made sure selunix is running in enforcing mode, operating 
 
 With anti-fragility, I think the auto scaling facility, cross zone load balancing feature and AWS's service improvement cycles help in this respect to react to system shocks. Also scaling policies can be configured and tuned to provide horizontal scaling under load or latency situations.
 
+## Known issues
+
+- During the Packer AMI build, I noticed on one ocassion the ruby rvm installer failed, this appears to be due to connectivity issues with the web site hosting rvm. If this occurs, rerun the make bake command. Also I noticed that sometimes during the ruby gem installs, especially sinatra, there is a pause of a few minutes, I added a user notice when each gem is being installed indicating it may take a while.
+
+
 I enjoyed this challange and I look forward to feedback from the recruitment team.
 
