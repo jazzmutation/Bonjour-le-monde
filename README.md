@@ -28,11 +28,11 @@ The key criteria for assessment are  listed in the challenge gihthub page, I wil
 
 ## Design for the solution
 
-When I read the requirements, I realised that I had completed an earlier verion of this challenge about four years ago using puppet razor for VM provisioning and puppet agent /puupet server for application deployment and configuration management. 
+When I read the requirements, I realised that I had completed an earlier release of this challenge about four years ago using puppet razor for VM provisioning and puppet agent /puupet server for application deployment and configuration management. 
 
-There were shortfalls in that the reviewer was unable to test my code with similar infrastructure as my homelab. This time I decided to use an AWS fresh account to use for this challenge, giving the reviewer the option of spinning up the complete environment for testing.
+There were shortfalls, in that, the reviewer was unable to test my code with similar infrastructure as my homelab. This time I decided to use an AWS account for this challenge, giving the reviewer the option of spinning up the complete environment for testing.
 
-To meet the criteria of simplicity I decided use tools that are pretty much the goto tools for provisioning on AWS, these being Packer and Terraform. I standup environments from time to time in my job role and generally these tools, though of late, I use to terragrunt to as a terraform wrapper as it's adds a very clean multi project and state management.
+To meet the criteria of simplicity, I decided to use tools that are pretty much the everyday tools (where I work) for provisioning on AWS, these being Packer and Terraform. I standup environments from time to time in my job role and generally these tools, and I like to use a tool called terragrunt for a terraform wrapper as it's adds very clean multi project and state management.
 
 With this Packer and Terraform challenge, I looked for a simple demo project to get started with, a more simpler outlook than an enterprise approach I am used to. With this in mind I found a simple demo and started with it (https://github.com/robmorgan/terraform-rolling-deploys). This project is fine for the challenge where terraform state information can be stored locally and no terraform record locking on DynamoDB table is needed.
 
