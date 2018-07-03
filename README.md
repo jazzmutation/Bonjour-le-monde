@@ -48,7 +48,7 @@ With anti-fragility, I think the auto scaling facility, cross zone load balancin
 
 ## Known issues
 
-During the Packer AMI build, I noticed on one ocassion the ruby rvm installer failed, this appears to be due to connectivity issues with the web site hosting rvm. If this occurs, repeat the make bake command. Also I noticed that sometimes during the ruby gem installs, especially sinatra, there is a pause of a few minutes, I added a user notice when each gem is being installed indicating it may take a while.
+During the Packer AMI build, I noticed on one ocassion the ruby rvm installer failed, this appears to be due to connectivity issues with the web site hosting rvm. If this occurs, repeat the make bake command. Also I noticed that sometimes during the ruby gem installs, especially sinatra, there is a pause of a few minutes, I added a user notice when each gem is being installed, indicating it may take a while.
 
 ## Improvements
 
