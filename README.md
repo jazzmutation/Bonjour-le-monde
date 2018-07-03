@@ -13,7 +13,7 @@ The key criteria for assessment are  listed in the challenge gihthub page, I wil
     - change to the directory called bonjour-le-monde to begin deploying the simple hello world application.
 - Begin the deployment by exporting your aws api keys as shown above and begin the AMI build procedure by using this command: 
   - ```make bake```
-  - This Packer AMI builder will output progress as it builds the image, this will take a while.
+  - The Packer AMI builder will output progress as it builds the image, this will take a while.
   - On completion record the AMI ID for use in the next step to deploy the new AMI build:
   - ```make init AMI="my-new-ami-id"```
   - The terraform tool will output the progress of the initialisation step, on success proceed to the plan step:
