@@ -32,7 +32,7 @@ When I read the requirements, I realised that I had completed an earlier release
 
 There were shortfalls, in that, the reviewer was unable to test my code with similar infrastructure as my homelab. This time I decided to use an AWS account for this challenge, giving the reviewer the option of spinning up the complete environment for testing.
 
-To meet the criteria of simplicity, I decided to use tools that are pretty much the everyday tools (where I work) for provisioning on AWS, these being Packer and Terraform. I standup environments from time to time in my job role and generally these these tools, and I like to use a tool called terragrunt for a terraform wrapper as it's adds very clean multi project and state management.
+To meet the criteria of simplicity, I decided to use tools that are pretty much the everyday tools (where I work) for provisioning on AWS, these being Packer and Terraform. I standup environments from time to time in my job role and generally use these tools. In addition, I like to use a tool called terragrunt as a terraform wrapper, it provides extra features like very clean structure for multi project code and the associated terraform state infomation.
 
 With this Packer and Terraform challenge, I looked for a simple demo project to get started with, a more simpler outlook than an enterprise approach I am used to. With this in mind I found a simple demo and started with it (https://github.com/robmorgan/terraform-rolling-deploys). This project is fine for the challenge where terraform state information can be stored locally and no terraform record locking on a DynamoDB table is needed.
 
